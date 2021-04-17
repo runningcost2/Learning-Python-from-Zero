@@ -22,3 +22,16 @@
 age = 20
 color = "빨간"
 print(f"나는 {age}살이며, {color}색을 좋아해요")
+
+
+# Method 5
+from random import * #셔플을 쓰기위함
+
+evwinner = range(1, 11)
+evwinner = list(evwinner)
+shuffle(evwinner)
+
+print("Winners of the event are nunber {0}" .format(evwinner[0:2]))
+# # {0}을 써야 리스트에서 불러오기 가능
+# # {}에는 .format이 따라옴 콤마에 주목할 것
+# #[0:2]의 의미는 리스트 안에서 0번자리부터 2번자리 직전 즉, 1번자리까지 불러온 다는 것은 의미
