@@ -17,10 +17,6 @@ def withdrawal_fee(balance, money):
     commission = 2
     return commission, balance - money - commission
 
-
-
-
-
 balance = 0
 balance = deposit(balance, 1000)
 # # balance = withdraw(balance, 2000)
