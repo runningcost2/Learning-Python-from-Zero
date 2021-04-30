@@ -1,0 +1,4 @@
+Math : 0
+English : 50
+Science : 80
+Music : 100
